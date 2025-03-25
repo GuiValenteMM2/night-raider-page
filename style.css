@@ -1,0 +1,66 @@
+html {
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header > h1 {
+    color:#f5f5dc;
+    font-size: 2em;
+}
+
+header {
+    display: flex;
+    padding: 2vh 5em;
+    background-color: rgb(7, 7, 7);
+    position: sticky;
+    top: 0;
+}
+
+#banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    width: 100%; 
+    flex-direction: column;
+    padding: 5em;
+        
+}
+
+#band-logo {
+    width: 60vw;
+    height: 60vh;
+}
+
+.section-link {
+    color: #f5f5dc;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.section-link:hover {
+    color: #c2c2ab;
+    font-size: 2.2em;
+}
+
+#menu-burger {
+    height: 50px;
+    width: 50px;
+    color: beige
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 5em;
+}
+
+#about-us {
+    color: white;
+    font-size: 5em;
+}
