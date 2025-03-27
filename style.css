@@ -29,7 +29,7 @@ header {
     width: 100%; 
     flex-direction: column;
     padding: 5em;
-        
+    margin-bottom: 4em;
 }
 
 #band-logo {
@@ -62,5 +62,9 @@ header {
 
 #about-us {
     color: white;
-    font-size: 5em;
+    font-size: 3em;
+    display: flex;
+    width: 90vw;
+    height: 70vh;
 }
+
