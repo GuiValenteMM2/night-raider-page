@@ -1,5 +1,6 @@
-html {
+html, body {
     background-color: black;
+    scroll-behavior: smooth;
 }
 
 * {
@@ -61,10 +62,69 @@ header {
 }
 
 #about-us {
-    color: white;
-    font-size: 3em;
+    color: #f5f5dc;
+    font-size: 2em;
     display: flex;
-    width: 90vw;
-    height: 70vh;
+    flex-direction: column;
+    height: 100vh;   
+    padding-top: 10vh;  
+    gap: 4em;
 }
 
+h2 {
+    padding-left: 100px;
+}
+
+#about-us div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#about-us > div > p {
+    width: 40vw;
+    font-size: 1.5em;
+}
+
+#about-us > div > img {
+    width: 400px;
+    height: 400px;
+}
+
+#events {
+    color: #f5f5dc;
+    font-size: 4mm;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+#events h2 {
+    color: #f5f5dc;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+#event-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.event-cards {
+    width: 200px;
+    height: 250px;
+    background-color: #2e2e2e ;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 1em;
+    padding: 24px;
+}
