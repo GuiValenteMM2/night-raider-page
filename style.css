@@ -9,17 +9,20 @@ html, body {
     box-sizing: border-box;
 }
 
-header > h1 {
-    color:#f5f5dc;
-    font-size: 2em;
-}
-
 header {
     display: flex;
     padding: 2vh 5em;
     background-color: rgb(7, 7, 7);
     position: sticky;
     top: 0;
+    align-items: center;
+}
+
+#header-logo {
+    width: 150px;
+    height: 40px;
+    padding: -80px;
+    cursor: pointer;
 }
 
 #banner {
@@ -30,30 +33,40 @@ header {
     width: 100%; 
     flex-direction: column;
     padding: 5em;
-    margin-bottom: 4em;
 }
 
 #band-logo {
-    width: 60vw;
-    height: 60vh;
+    margin-top: 5vh;
 }
 
 .section-link {
-    color: #f5f5dc;
+    color: #f6bc68;
     text-decoration: none;
     font-size: 2em;
 }
 
 .section-link:hover {
-    color: #c2c2ab;
+    color: #e68f4c;
     font-size: 2.2em;
 }
 
-#menu-burger {
-    height: 50px;
-    width: 50px;
-    color: beige
+#link-area {
+    display: flex;
+    gap: 24px;
 }
+
+.nav-link {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: rgb(199, 199, 199);
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    border-bottom: solid rgb(199, 199, 199) 2px;
+    color: rgb(218, 218, 218);;
+}   
+
 
 header {
     display: flex;
@@ -62,13 +75,17 @@ header {
 }
 
 #about-us {
-    color: #f5f5dc;
-    font-size: 2em;
     display: flex;
     flex-direction: column;
     height: 100vh;   
     padding-top: 10vh;  
-    gap: 4em;
+    gap: 5em;
+}
+
+#about-us h2 {
+    font-weight: bold;
+    color: #f7a533;
+    font-size: 3em;
 }
 
 h2 {
@@ -82,7 +99,8 @@ h2 {
 
 #about-us > div > p {
     width: 40vw;
-    font-size: 1.5em;
+    font-size: 2em;
+    color: #f6bc68;
 }
 
 #about-us > div > img {
@@ -91,7 +109,7 @@ h2 {
 }
 
 #events {
-    color: #f5f5dc;
+    color: #f6bc68;
     font-size: 4mm;
     height: 80vh;
     display: flex;
@@ -100,7 +118,7 @@ h2 {
 }
 
 #events h2 {
-    color: #f5f5dc;
+    color: #f6bc68;
     font-size: 3em;
     margin-bottom: 1em;
 }
